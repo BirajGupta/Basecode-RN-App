@@ -14,6 +14,20 @@ const BlogStack = createStackNavigator()
 const Tabs = createBottomTabNavigator()
 
 const HomeStackScreen = ({navigation}) => (
+
+    // <HomeStack.Navigator
+    // //screenOptions for global styles to a navigator header for all screens in it
+    // >
+    //     <HomeStack.Screen name="Home" component={Home} options={{
+    //     headerStyle: GlobalStyles.headerStyles,
+    //     headerTitleAlign : "center",
+    //     headerBackground : props => <ImageBackground source={require("../assets/game_bg.png")} style={{height:"100%"}} resizeMode="cover"/>,
+    //     headerTitle : props => <HeaderTitle title={"Gamezone"} image={require("../assets/heart_logo.png")}/>,
+    //     headerLeft : props => <MaterialIcons name="menu" size={28} style={GlobalStyles.hamIcon} onPress={() => navigation.toggleDrawer()}/>
+    // }}/>
+    //     <HomeStack.Screen name="ReviewDetails" component={ReviewDetails} options={{title: "Review Details"}}/>
+    // </HomeStack.Navigator>
+
     <HomeStack.Navigator
     //screenOptions for global styles to a navigator header for all screens in it
     screenOptions={{
